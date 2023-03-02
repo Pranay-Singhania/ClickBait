@@ -1,0 +1,26 @@
+.product-content h3{
+    text-transform: uppercase;
+    font-size: 1.3rem;
+}
+.product .product-item-img{
+    position: relative;
+}
+.flexrow{
+    display: flex;
+    flex-direction: row;
+}
+.product-item-price-icon-body svg{
+    font-size: large;
+    display: flex;
+}
+@media screen and (min-width:20em) and (max-width:36em){
+    .product .product-item-body{
+        padding: 0.675rem 0!important;
+    }
+    .product .product-item-price{
+        font-size: 0.7rem;
+    }
+    .product .product-item-price-icon-body svg{
+        font-size: small;
+    }
+}

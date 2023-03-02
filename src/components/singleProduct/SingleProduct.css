@@ -1,0 +1,198 @@
+.whitebtn{
+    background: white;
+    border: none;
+}
+.flexcenter{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.overlay-bg{
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0,0,0,0.4);
+    z-index: 11;
+}
+.product-details-modal{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    z-index: 20;
+    border-radius: 4px;
+    padding: 36px 24px;
+    width: 90%;
+    max-width: 50rem;
+    background-color: white;
+}
+.modal-close-btn{
+    position: absolute;
+    right: -12px;
+    top: -12px;
+    width: 24px;
+    height: 24px;
+    background-color: black;
+    color: white;
+    border-radius: 50%;
+    font-size: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.modal-close-btn:hover{
+    color: goldenrod;
+}
+.product-details-modal .details-content{
+    overflow-y: scroll;
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+}
+.product-details-modal .details-left{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.details-right .price{
+    font-weight: 650;
+    font-size: 20px;
+    color: black;
+    opacity: 0.7;
+    border-bottom: 1px dashed darkgrey;
+    padding-bottom: 5px;
+    display: flex;
+}
+.price p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 0.375rem;
+}
+.details-right .qty{
+    display: flex;
+    margin-top: 16px;
+}
+.qty-text{
+    margin-right: 12px;
+}
+.qty-change .whitebtn{
+    border: 2px solid rgb(211, 211, 211,0.2);
+    font-size: 14px;
+}
+.qty-change .whitebtn i{
+    color: black!important;
+    opacity: 1!important;
+}
+.qty-change .whitebtn:hover{
+    background-color: lightgrey;
+}
+.qty-change .whitebtn:active{
+    transform: translate3d(1px,-1px,0);
+}
+.qty-change .qty-inc, .qty-dec{
+    width: 32px;
+    height: 32px;
+}
+.product-details-modal .details-right .title{
+    color: rgb(0,49,83);
+    font-size: 1.125rem;
+    font-weight: 500;
+}
+.details-right .description{
+    margin: 6px 0 10px 0;
+    font-size: 14px;
+    color: darkslategray;
+    opacity: 0.8;
+}
+.qty-change .qty-inc, .qty-dec:hover{
+    color:lightblue;
+}
+.add-to-cart-btn{
+    margin-top: 16px;
+    background-color: rgb(0,49,83);
+    color: white;
+    padding: 8px 10px;
+    border-radius: 4px;
+}
+.add-to-cart-btn:hover{
+    color: gold;
+}
+.product-details-modal .details-img{
+    max-width: 31.25rem;
+}
+.add-to-cart-btn:active{
+    transform: translate3d(2px,-2px,0);
+}
+@media screen and (min-width:22rem) {
+    .details-right .description{
+        margin-bottom: 6px;
+    }
+    .details-content{
+        flex-direction: column!important;
+        height: 80vh;
+    }
+    .product-details-modal{
+        max-width: 25rem;
+    }
+    .details-info{
+        margin-top:15px;
+        max-width: 21rem;
+    }
+    .details-info .price p{
+        margin-bottom: 0px;
+        font-size: 19px;
+    }
+    .details-right .qty{
+        margin-top: 10px;
+    }
+    .details-right{
+        max-width: 24rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .product-details-modal .details-content{
+        overflow-y:hidden;
+        max-height: 80vh;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+    }
+    .details-img img{
+        width: 100%;
+    }
+    .add-to-cart-btn{
+        margin-top: 12px;
+    }
+}
+@media screen and (min-width:880px) {
+    .details-content{
+        flex-direction: row!important;
+        height: 42vh!important;
+    }
+    .details-left{
+        margin-right: 40px;
+    }
+    .details-img img{
+        height: 250px;
+    }
+    .product-details-modal{
+        width: 90%;
+        max-width: 800px;
+    }
+    .details-right{
+        max-width: 24rem;
+        display: inline;
+    }
+}
+@media screen and (max-width:55rem){
+    .product-details-modal .details-img {
+        max-width: 22rem!important;
+    }
+}
+@media screen and (min-width:20em) and (max-width:36em){
+
+}

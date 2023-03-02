@@ -1,0 +1,8 @@
+.home-page{
+    min-height: 60vh;
+}
+@media screen and (min-width:20em) and (max-width:36em){
+    .home-page .hero-slider-item{
+        display: none;
+    }
+}

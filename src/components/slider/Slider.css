@@ -1,0 +1,11 @@
+.hero-slider-item{
+    max-height: 70em;
+    display: flex;
+    justify-content: center;
+    overflow-x: hidden;
+}
+.hero-slider-item img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
