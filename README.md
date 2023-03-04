@@ -1,1 +1,1 @@
-This is readme section
+It's a performant responsive ecommerce website with  react routing, lazy loading, fully optimized search(debouncing & caching), CRUD(create, read, update , delete) and available for all three types of devices(desktop, tablet, mobile).
