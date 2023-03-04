@@ -19,7 +19,7 @@ function App() {
   return (
     <div className="App">
       <Provider store={store}>
-        <BrowserRouter>
+        <BrowserRouter basename="/ClickBait">
           <Navbar />
           <Routes>
             <Route path="/" element={<HomePage />} />
