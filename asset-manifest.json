@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/ClickBait/static/css/main.4b2d05aa.css",
-    "main.js": "/ClickBait/static/js/main.dd1c998d.js",
+    "main.js": "/ClickBait/static/js/main.0b5b62b4.js",
     "static/css/324.c5f722bf.chunk.css": "/ClickBait/static/css/324.c5f722bf.chunk.css",
     "static/js/324.22af676f.chunk.js": "/ClickBait/static/js/324.22af676f.chunk.js",
     "static/css/467.08761490.chunk.css": "/ClickBait/static/css/467.08761490.chunk.css",
@@ -12,7 +12,7 @@
     "static/media/Logo.png": "/ClickBait/static/media/Logo.66426991800d3700b795.png",
     "index.html": "/ClickBait/index.html",
     "main.4b2d05aa.css.map": "/ClickBait/static/css/main.4b2d05aa.css.map",
-    "main.dd1c998d.js.map": "/ClickBait/static/js/main.dd1c998d.js.map",
+    "main.0b5b62b4.js.map": "/ClickBait/static/js/main.0b5b62b4.js.map",
     "324.c5f722bf.chunk.css.map": "/ClickBait/static/css/324.c5f722bf.chunk.css.map",
     "324.22af676f.chunk.js.map": "/ClickBait/static/js/324.22af676f.chunk.js.map",
     "467.08761490.chunk.css.map": "/ClickBait/static/css/467.08761490.chunk.css.map",
@@ -20,6 +20,6 @@
   },
   "entrypoints": [
     "static/css/main.4b2d05aa.css",
-    "static/js/main.dd1c998d.js"
+    "static/js/main.0b5b62b4.js"
   ]
 }
