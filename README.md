@@ -4,7 +4,7 @@ It's a performant e-commerce website that will make you want to click more and b
 
 ## **Features**
 
-    ✔ **Responsive** design for all types of devices.📱📑💻
+    ✔ __Responsive__ design for all types of devices.📱📑💻
     ✔ Advanced search functionality with **debouncing** and **caching** to provide an optimized search experience.
     ✔ **React routing** to navigate between different pages of the website.
     ✔ **Lazy loading** to improve the website's loading speed.
