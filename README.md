@@ -1,8 +1,8 @@
-## ClickBait E-Commerce Website
+#### ClickBait E-Commerce Website
 
 It's a performant e-commerce website that will make you want to click more and buy more! Responsive frontend design that looks great on any device, so you can shop till you drop, no matter where you are. Warning: may cause excessive spending, proceed with caution 😉💸💳
 
-#Features
+### Features
 
     ✔ Responsive design for all types of devices.📱📑💻
     ✔ Advanced search functionality with debouncing and caching to provide an optimized search experience.
@@ -10,7 +10,7 @@ It's a performant e-commerce website that will make you want to click more and b
     ✔ Lazy loading to improve the website's loading speed.
     ✔ CRUD functionality to manage products and other data.
 
-#Technologies used
+### Technologies used
 
     ▫ React
     ▫ Redux Toolkit
@@ -18,14 +18,14 @@ It's a performant e-commerce website that will make you want to click more and b
     ▫ Material ui icons 
     ▫ Css
 
-#Installation
+### Installation
 
 This website does not require any installation or setup. You can simply visit the website at https://pranay-singhania.github.io/ClickBait/ and start using it right away.
 
-#Usage
+### Usage
 
 You can use the website to browse through different products productwise as well as categorywise and add them to your cart.
 
-#Contact
+### Contact
 
 If you have any questions or concerns about this project, you can contact me at pranay.s4299@gmail.com.
