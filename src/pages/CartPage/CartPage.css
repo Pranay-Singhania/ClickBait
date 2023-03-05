@@ -112,6 +112,7 @@
 .cart-item-info h6{
     font-size: 1.1rem;
     opacity: 0.8;
+    width: 100%;
 }
 .cart-left .cart-item{
     padding: 0.625rem 0;
@@ -199,7 +200,7 @@
 @media screen and (min-width: 24rem) {
     .cart-item-info{
         width: -moz-available;
-        width: -webkit-available;
+        width: 100%;
     }
     .cart-item-img{
         margin-right: 1rem;
