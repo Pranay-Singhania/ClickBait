@@ -4,18 +4,20 @@ It's a performant e-commerce website that will make you want to click more and b
 
 ## **Demo**
 Laptop view: 
+
 ![image](https://user-images.githubusercontent.com/53472824/222942494-6a58324d-bce3-4f92-8cbd-6741564ac5a4.png)
 ![image](https://user-images.githubusercontent.com/53472824/222942512-f8fa14c5-d7d1-48f9-a55a-00476c6f9ee5.png)
 
 Tablet view:
+
 ![image](https://user-images.githubusercontent.com/53472824/222942570-c4083f52-b535-4bcb-8df1-a71918772181.png)
 ![image](https://user-images.githubusercontent.com/53472824/222942546-e9890e79-a250-4738-8e26-f7d8b0b76d96.png)
 
 
 Mobile view:
-![image](https://user-images.githubusercontent.com/53472824/222941772-8028bb1e-60e5-48f3-a2a1-b2129ca1f102.png)
-![image](https://user-images.githubusercontent.com/53472824/222941802-7c70db8a-90e7-495d-af4c-1a378f9d3617.png)
 
+![image](https://user-images.githubusercontent.com/53472824/222942673-0ad59285-0468-4329-a0f3-07032b28edf7.png)
+![image](https://user-images.githubusercontent.com/53472824/222942703-ec3e5f38-8cd0-4f84-abc2-c1daa5e94e21.png)
 
 
 ## **Features**
