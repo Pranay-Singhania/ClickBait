@@ -1,7 +1,3 @@
-Welcome to Clickbait,
-
-It's a performant e-commerce website that will make you want to click more and buy more! Responsive frontend design that looks great on any device, so you can shop till you drop, no matter where you are. Warning: may cause excessive spending, proceed with caution 😉💸💳
-
 ClickBait E-Commerce Website
 
 It's a performant e-commerce website that will make you want to click more and buy more! Responsive frontend design that looks great on any device, so you can shop till you drop, no matter where you are. Warning: may cause excessive spending, proceed with caution 😉💸💳
