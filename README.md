@@ -8,19 +8,19 @@ It's a performant e-commerce website that will make you want to click more and b
 
 Features
 
-    Responsive design for all types of devices.📱📑💻
-    Advanced search functionality with debouncing and caching to provide an optimized search experience.
-    React routing to navigate between different pages of the website.
-    Lazy loading to improve the website's loading speed.
-    CRUD functionality to manage products and other data.
+    ✔ Responsive design for all types of devices.📱📑💻
+    ✔ Advanced search functionality with debouncing and caching to provide an optimized search experience.
+    ✔ React routing to navigate between different pages of the website.
+    ✔ Lazy loading to improve the website's loading speed.
+    ✔ CRUD functionality to manage products and other data.
 
 Technologies used
 
-    React
-    Redux Toolkit
-    React-router
-    Material ui icons 
-    Css
+    ▫ React
+    ▫ Redux Toolkit
+    ▫ React-router
+    ▫ Material ui icons 
+    ▫ Css
 
 Installation
 
