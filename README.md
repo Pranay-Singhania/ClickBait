@@ -38,7 +38,7 @@ Mobile view:
 
 ## **Installation**
 
-This website does not require any installation or setup. You can simply visit the website at (pranay-singhania.github.io/ClickBait/) and start using it right away.
+This website does not require any installation or setup. You can simply visit the website at https://pranay-singhania.github.io/ClickBait/ and start using it right away.
 
 ## **Usage**
 
