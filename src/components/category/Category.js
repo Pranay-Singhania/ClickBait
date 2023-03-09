@@ -35,7 +35,7 @@ const Category = () => {
                 <Link to={`category/${category.id}`} key={category.id} style={{ textDecoration: "none" }}>
                   <div className="category-item">
                     <div className="category-item-img">
-                      <img src={category.image} alt="" />
+                      <img src={category.image} alt="" loading="lazy" />
                     </div>
                     <div className="category-item-name">
                       <h6>{category.name}</h6>

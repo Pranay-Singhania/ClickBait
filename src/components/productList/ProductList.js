@@ -37,7 +37,7 @@ const ProductList = ({ products, status }) => {
                 {products?.slice(0, 50).map((product) => (
                   <div className="product-item" key={product.id} onClick={() => viewModalData(product)}>
                     <div className="product-item-img">
-                      <img src={product.images[0]} alt="" />
+                      <img src={product.images[0]} alt="" loading="lazy" />
                       <div className="product-item-cat">{product.category.name}</div>
                     </div>
                     <div className="product-item-body">
