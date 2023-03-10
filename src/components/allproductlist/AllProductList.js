@@ -11,7 +11,6 @@ const AllProductList = () => {
 
   useEffect(() => {
     products.length === 0 && dispatch(getProducts());
-    console.log("useEffect fired prod");
   }, [dispatch]);
 
   return (

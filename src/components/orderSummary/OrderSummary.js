@@ -3,7 +3,6 @@ import React from "react";
 
 const OrderSummary = ({ totalItems }) => {
   const { totalAmount, totalDeliveryCharge } = useSelector((state) => state.cart);
-  console.log("ordersummary");
 
   return (
     <div className="cart-right-section">

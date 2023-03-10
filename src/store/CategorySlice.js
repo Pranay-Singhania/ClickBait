@@ -33,7 +33,6 @@ const categorySlice = createSlice({
     },
   },
 });
-console.log("categoryslice");
 
 export const { setCategories, setStatus, setCategoriesProductAll, setCategoriesAllStatus, setCategoriesProductSingle, setCategoriesSingleStatus } =
   categorySlice.actions;
@@ -56,7 +55,6 @@ export const getCategories = () => {
 
 export const getProductsByCategory = (categoryID, dataType) => {
   return async (dispatch) => {
-    console.log("getProductsByCategory");
     if (dataType === "all") dispatch(setCategoriesAllStatus(STATUS.LOADING));
     if (dataType === "single") dispatch(setCategoriesSingleStatus(STATUS.LOADING));
     try {

@@ -18,8 +18,6 @@ const Navbar = () => {
     dispatch(getCartTotal());
   }, []);
 
-  console.log("navbar");
-
   return (
     <nav className="outer-nav">
       <nav className="navbar-top navbar navbar-expand-lg bg-light">

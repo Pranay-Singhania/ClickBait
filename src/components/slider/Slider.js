@@ -1,7 +1,6 @@
 import React from "react";
 import "../slider/Slider.css";
 import { home_banner } from "../../utils/images";
-console.log("slider");
 
 const Slider = () => {
   return (

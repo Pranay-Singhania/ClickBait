@@ -17,10 +17,8 @@ const SingleCategory = ({ products, status }) => {
     dispatch(setModalData(data));
     dispatch(setIsModalVisible(true));
   };
-  console.log(products);
   if (status === STATUS.ERROR) return <Error />;
   if (status === STATUS.LOADING) return <Loader />;
-  console.log("Singlecategory");
 
   return (
     <section className="cat-single">

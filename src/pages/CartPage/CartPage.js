@@ -15,7 +15,6 @@ const CartPage = () => {
   }, [useSelector((state) => state.cart)]);
 
   const emptyCartMsg = <h4>No items found!</h4>;
-  console.log("cartpage");
 
   return (
     <div className="cart-page">

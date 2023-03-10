@@ -15,7 +15,6 @@ const ShowCateg = () => {
 
   return (
     <>
-      {console.log("rendetr showcateg")}
       {/* category one product */}
       {productsByCategory[0] && <SingleCategory products={productsByCategory[0]} status={catProductAllStatus} />}
 

@@ -19,13 +19,12 @@ const ProductSlice = createSlice({
 });
 export const { setProducts, setStatus } = ProductSlice.actions;
 export default ProductSlice.reducer;
-console.log("productslice");
 
 export const getProducts = () => {
   return async (dispatch) => {
     dispatch(setStatus(STATUS.LOADING));
     try {
-      const response = await fetch(`${apiURL}products?offset=0&limit=10`);
+      const response = await fetch(`${apiURL}products?offset=0&limit=20`);
       const data = await response.json();
       dispatch(setProducts(data));
       dispatch(setStatus(STATUS.IDLE));

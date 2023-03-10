@@ -24,7 +24,6 @@ const SingleProduct = () => {
     dispatch(setIsModalVisible(false));
     navigate("/cart");
   };
-  console.log("singleProduct");
 
   return (
     <div className="overlay-bg">

@@ -9,7 +9,6 @@ const fetchFromLocalStorage = () => {
 const storeInLocalStorage = (data) => {
   localStorage.setItem("cart", JSON.stringify(data));
 };
-console.log("cartslice");
 
 const CartSlice = createSlice({
   name: "cart",

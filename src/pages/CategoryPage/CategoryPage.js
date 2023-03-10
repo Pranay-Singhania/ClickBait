@@ -14,7 +14,6 @@ const CategoryPage = () => {
   useEffect(() => {
     (products.length === 0 || id) && dispatch(getProductsByCategory(id, "single"));
   }, [id]);
-  console.log("categorypage");
 
   return (
     <div className="category-page">

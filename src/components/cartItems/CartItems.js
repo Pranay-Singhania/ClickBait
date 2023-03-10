@@ -8,7 +8,6 @@ import CurrencyRupeeIcon from "@mui/icons-material/CurrencyRupee";
 const CartItems = () => {
   const dispatch = useDispatch();
   const { data: cartProducts } = useSelector((state) => state.cart);
-  console.log("cartitems");
 
   return (
     <div className="cart-left">

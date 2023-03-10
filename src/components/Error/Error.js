@@ -1,6 +1,5 @@
 import React from "react";
 import { error } from "../../utils/images";
-console.log("error");
 
 const Error = () => {
   return (

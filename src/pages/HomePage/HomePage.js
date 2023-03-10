@@ -6,11 +6,9 @@ import ShowCateg from "../../components/showCateg/ShowCateg";
 import AllProductList from "../../components/allproductlist/AllProductList";
 
 const HomePage = () => {
-  console.log("Homepage");
   return (
     <>
       <div className="home-page">
-        {console.log("render")}
         <Slider />
         <Category />
         <AllProductList />

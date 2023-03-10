@@ -20,7 +20,6 @@ const ProductList = ({ products, status }) => {
 
   if (status === STATUS.ERROR) return <Error />;
   if (status === STATUS.LOADING) return <Loader />;
-  console.log("productlist");
 
   return (
     <>
@@ -34,7 +33,7 @@ const ProductList = ({ products, status }) => {
                 <h3>Our Products</h3>
               </div>
               <div className=" flexcenter product-items">
-                {products?.slice(0, 50).map((product) => (
+                {products?.slice(0, 20).map((product) => (
                   <div className="product-item" key={product.id} onClick={() => viewModalData(product)}>
                     <div className="product-item-img">
                       <img src={product.images[0]} alt="" loading="lazy" />

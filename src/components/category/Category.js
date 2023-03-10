@@ -14,13 +14,10 @@ const Category = () => {
 
   useEffect(() => {
     categories.length === 0 && dispatch(getCategories());
-    console.log("useEffect fired category");
   }, [dispatch]);
 
   if (status === STATUS.ERROR) return <Error />;
   if (status === STATUS.LOADING) return <Loader />;
-
-  console.log("category");
 
   return (
     <section className="categories">

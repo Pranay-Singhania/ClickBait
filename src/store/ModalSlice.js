@@ -1,5 +1,4 @@
 import { createSlice } from "@reduxjs/toolkit";
-console.log("modalslice");
 
 const ModalSlice = createSlice({
   name: "modal",

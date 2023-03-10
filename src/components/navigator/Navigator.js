@@ -3,7 +3,6 @@ import "./Navigator.css";
 import { Link } from "react-router-dom";
 import HomeRoundedIcon from "@mui/icons-material/HomeRounded";
 import KeyboardArrowRightRoundedIcon from "@mui/icons-material/KeyboardArrowRightRounded";
-console.log("navigator");
 
 const Navigator = ({ categoryName }) => {
   return (
