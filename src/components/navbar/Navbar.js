@@ -24,7 +24,7 @@ const Navbar = () => {
         <div className="container-fluid">
           <Link to="/" className="navbar-brand ">
             <span>
-              <img src={logo} alt="" width="10rem" />
+              <img src={logo} alt="logo" width="10rem" />
             </span>
           </Link>
           <Search />

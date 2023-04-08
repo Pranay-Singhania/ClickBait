@@ -5,7 +5,7 @@ const Error = () => {
   return (
     <div className="container">
       <div style={{ display: "flex", justifyContent: "center", alignItems: "center" }}>
-        <img src={error} style={{ width: "240px" }} alt="loader" />
+        <img src={error} style={{ width: "240px" }} alt="error" />
       </div>
     </div>
   );
