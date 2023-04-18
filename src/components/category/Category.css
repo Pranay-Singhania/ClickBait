@@ -9,6 +9,7 @@
     border-radius: 10px;
     flex-grow: 1;
     overflow: hidden;
+    /* padding: 0.5rem; */
 }
 .category-item-name{
     text-align: center;
@@ -21,7 +22,10 @@
 .category-item{
     display: flex;
     flex-direction: column;
-    padding: 0.7rem;
+    padding: 0.5rem;
+    /* box-shadow: rgba(0, 0, 0, 0.2) 0 2px 8px 0; */
+    margin: 0.5rem;
+    border-radius: 10px;
 }
 .categories-content .category-items{
     display: flex;
@@ -37,7 +41,7 @@
 }
 @media screen and (min-width: 768px) {
     .category-item-img img{
-        height: 9.5rem!important;
+        height: 11rem!important;
     }
     .section-title h3{
         margin-left: 1rem;

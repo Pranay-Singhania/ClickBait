@@ -17,9 +17,14 @@
     flex-wrap: wrap;
     padding: 20px 0;
 }
+/* .product-item-img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} */
 .product-item-title{
     white-space: nowrap; 
-    max-width: 11.8rem; 
+    max-width: 11rem; 
     overflow: hidden;
     text-overflow: ellipsis; 
     padding: 8px;
@@ -47,7 +52,8 @@
 }
 @media screen and (min-width: 576px) {
     .product-item-img img{
-        height: 165px!important;
+        height: 10.5rem !important;
+        width: 10.5rem !important;
     }
     .product-item{
         margin:6px;
@@ -59,6 +65,7 @@
         font-size: 15px;
         padding: 5px;
         margin-bottom: 5px;
+        max-width: 10.5rem;
     }
     .product-item-price-icon{
         font-size: 16px!important;
@@ -70,7 +77,8 @@
 }
 @media screen and (min-width: 768px) {
     .product-item-img img{
-        height: 150px!important;
+        height: 10rem !important;
+        width: 10rem !important;
     }
     .product-item{
         margin:6px;
@@ -79,6 +87,7 @@
         font-size: 15px;
         padding: 6px;
         margin-bottom: 5px;
+        max-width: 10rem;
     }
     .product-item-price-icon{
         font-size: 17px!important;
@@ -88,16 +97,12 @@
     }
 }
 @media screen and (min-width: 992px) {
-    .product-item-img img{
-        height: 144px!important;
-    }
     .product-item{
         margin:5px;
     }
     .product-item-title{
         font-size: 14px;
         padding: 5px;
-        /* margin-bottom: 5px; */
     }
     .product-item-price-icon{
         font-size: 17px!important;
@@ -108,7 +113,8 @@
 }
 @media screen and (min-width: 1200px) {
     .product-item-img img{
-        height: 142px!important;
+        height: 11rem !important;
+        width: 11rem !important;
     }
     .product-item{
         margin:0.6vw;
@@ -126,20 +132,21 @@
 }
 @media screen and (min-width:20em) and (max-width:36em){
     .product-item-img img{
-        height: 6.8rem;
+        height: 8rem;
+        width: 8rem;
     }
     .product-item{
         display: flex;
         flex-direction: column;
         box-shadow: rgba(0, 0, 0, 0.2) 0 2px 8px 0;
-        padding: 0.5rem;
+        padding: 0.7rem;
         border-radius: 4px;
         cursor: pointer;
         margin: 0.4rem !important;
     }
     .product-item-title{
         white-space: nowrap; 
-        max-width: 9.1rem; 
+        max-width: 8rem; 
         overflow: hidden;
         text-overflow: ellipsis; 
         padding: 0.5rem;

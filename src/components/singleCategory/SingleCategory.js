@@ -33,8 +33,10 @@ const SingleCategory = ({ products, status }) => {
             {products.map((product) => (
               <div className="product-item" key={product.id} onClick={() => viewModalData(product)}>
                 <div className="product-item-img" style={{ position: "relative" }}>
+                  {/* <div style={{ display: "flex", justifyContent: "center", alignItems: "center" }}> */}
                   <img src={product.images[0]} alt="" loading="lazy" />
                   <div className="product-item-cat">{product.category.name}</div>
+                  {/* </div> */}
                 </div>
                 <div className="product-item-body" style={{ padding: "12px 0" }}>
                   <h6 className="product-item-title">{product.title}</h6>
